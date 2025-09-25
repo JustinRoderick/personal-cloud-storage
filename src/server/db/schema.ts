@@ -6,7 +6,7 @@ import {
   index,
 } from "drizzle-orm/singlestore-core";
 
-export const files = singlestoreTable(
+export const files_table = singlestoreTable(
   "files_table",
   {
     id: bigint("id", { mode: "number", unsigned: true })
@@ -22,7 +22,7 @@ export const files = singlestoreTable(
   },
 );
 
-export const folders = singlestoreTable(
+export const folders_table = singlestoreTable(
   "folders_table",
   {
     id: bigint("id", { mode: "number", unsigned: true })
