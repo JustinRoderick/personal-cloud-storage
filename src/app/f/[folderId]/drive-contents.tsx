@@ -16,7 +16,7 @@ export default function DriveContents(props: {
 
   currentFolderId: number;
 }) {
-  const navigate = useRouter();
+  //const navigate = useRouter();
 
   //const posthog = usePostHog();
 
